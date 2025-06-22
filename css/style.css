@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+    --title-color: #A93B59;
+  }
+.container {
+    width: 1328px;
+    padding: 0 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background: #000;
+    padding-top: 24px;
+    padding-bottom: 22px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo__link {
+    color: #F5EBEB;
+text-align: center;
+font-family: "Spline Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 1px;
+}
+
+.header__logo {
+    width: 42px;
+height: 39px;
+}
+.header__nav {
+   
+}
+.header__list {
+    display: flex;
+    gap: 32px;
+
+}
+.header__item {
+}
+.header__link {
+    color: #F5EBEB;
+text-align: center;
+font-family: "Source Code Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero {
+    background: #000;
+    padding-top: 84px;
+    padding-bottom: 50px;
+    background-image: url("../img/hero/peonies.webp"), url("../img/hero/ellipse.webp");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, 1000px 400px;
+    background-size:auto, 400px;
+
+  
+}
+
+.hero__part {
+    color: var(--title-color);
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: italic;
+font-weight: 500;
+line-height: 60px; 
+display: flex;
+justify-content: flex-start;
+margin-bottom: 12px;
+}
+.hero__box {
+    display: flex;
+    gap: 24px;
+}
+.hero__title {
+    color: #F5EBEB;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 86px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; 
+text-transform: uppercase;
+display: flex;
+justify-content: flex-start;
+margin-left: 110px;
+}
+.hero__part2 {
+    color: var(--title-color);
+text-align:end;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: italic;
+font-weight: 500;
+line-height: 60px;
+
+
+
+}
+.hero__text {
+    color: #F5EBEB;
+font-family: "Source Code Pro";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 24px;
+margin-bottom: 40px;
+margin-left: 110px;
+}
+.hero__button {
+    color: #F5EBEB;
+text-align: center;
+font-family: "Source Code Pro";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 15px;
+background:  #A93B59;
+width: 437px;
+padding: 16px 32px;
+margin-bottom: 437px;
+margin-left: 110px;
+}
+.hero__list {
+    gap: 124px;
+    display: flex;
+
+}
+.hero__item {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2px;
+
+}
+.hero__icon {
+    width: 40px;
+height: 40px;
+}
+.hero__info {
+    color: #FFF;
+text-align: center;
+font-family: "Source Code Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.catalog {
+    background: #000;
+}
+.catalog__title {
+    color: var(--title-color);
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.catalog__subtitle {
+    color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 15px;
+background: rgba(185, 106, 127, 0.50);
+}
