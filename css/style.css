@@ -178,6 +178,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+
 }
 .catalog__subtitle {
     color: #FFF;
@@ -189,4 +190,130 @@ font-weight: 600;
 line-height: normal;
 border-radius: 15px;
 background: rgba(185, 106, 127, 0.50);
+}
+.details {
+    background: #000;
+    padding-top: 54px;
+    padding-bottom: 20px;
+}
+.details__container {
+}
+.details__title {
+    color: var(--title-color);
+    font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 885px;
+border-bottom: #B02E51 solid 2px;
+width: 494.089px;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 140px;
+}
+.details__list {
+    padding-top: 31px;
+    padding-bottom: 33px;
+}
+.details__item {
+}
+.details__controls {
+    
+    
+}
+.details__control {
+    display: flex;
+    
+}
+.details__control__img {
+    width: 659.129px;
+height: 477px;
+border-radius: 15px;
+margin-right: 121px;
+}
+.details__box {
+   
+}
+.details__control__title {
+    
+    color: #FFF;
+font-family: "Source Code Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 16px;
+margin-top: 69px;
+}
+.details__control__text {
+    width: 527px;
+    color: #FFF;
+font-family: "Source Code Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+}
+.details__designs {
+}
+.details__design {
+    display: flex;
+}
+.details__design__title { 
+ color: #FFF;
+font-family: "Source Code Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 128px;
+margin-bottom: 20px;
+}
+.details__design__text {
+    width: 535px;
+    color: #FFF;
+font-family: "Source Code Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.details__design__img {
+    width: 648px;
+height: 467px;
+border-radius: 15px;
+margin-left: 124px;
+}
+.details__deliverys {
+}
+.details__delivery {
+    display: flex;
+}
+.details__delivery__img {
+    width: 659px;
+height: 509px;
+border-radius: 15px;
+margin-right: 124px;
+}
+.details__delivery__title {
+    color: #FFF;
+font-family: "Source Code Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+margin-top: 124px;
+}
+.details__delivery__text {
+    width: 526px;
+    color: #FFF;
+font-family: "Source Code Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
