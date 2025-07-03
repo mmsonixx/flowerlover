@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlowerLover</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Spline+Sans:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Spline+Sans:wght@300..700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -160,10 +157,11 @@
                   </h3>
                   <p class="details__control__text">
                     Ми співпрацюємо з кращими постачальниками квітів і готові
-                    запропонувати Вам широкий асортимент квітів, починаючи від
-                    місцевих сортів і закінчуючи рідкісними імпортованими
-                    варіантами. Ваша близька людина отримає найкращий подарунок,
-                    адже ми ретельно підбираємо кожну квітку для вашого букету.
+                    запропонувати Вам <b>широкий асортимент квітів</b>,
+                    починаючи від місцевих сортів і закінчуючи рідкісними
+                    імпортованими варіантами.<br/> Ваша близька людина отримає
+                    найкращий подарунок, адже ми ретельно підбираємо кожну
+                    квітку для вашого букету.
                   </p>
                 </div>
               </li>
@@ -209,5 +207,68 @@
         </ul>
       </div>
     </section>
+    <div class="assist__wrapper">
+    <section class="assist ">
+      <div class="container ">
+        <h2 class="assist__title">Не можете визначитись з вибором букету?</h2>
+        <div class="assist__box">
+          <form action="" class="assist__field">
+            <p class="assist__info"><b>Відправте заявку</b><br/>
+              і Вам зателефонують 
+              протягом однієї хвилини</p>
+            <label class="assist__label" for="name">
+              <input type="text" class="assist__input" placeholder="Ім’я" required />
+              <svg class="assist__form__icon" width="28" height="28">
+                <use href="./symbol-defs.svg#icon-contact"></use>
+              </svg>
+            </label>
+            <label class="assist__label" for="phone">
+              <input type="tel" class="assist__input" placeholder="Телефон" required/>
+              <svg class="assist__form__icon" width="24" height="24">
+                <use href="./symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </label>
+            <button class="assist__button">Залишити заявку</button>
+          </form>
+          <div class="assist__container">
+          <h3 class="assist__subtitle">Наш менеджер по телефону: </h3>
+          <ul class="assist__list">
+            <li class="assist__item">
+              <svg class="assist__icon">
+                <use href="./symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+              <p class="assist__text"><b>Відповість</b> на будь які запитання</p>
+            </li>
+            <li class="assist__item">
+              <svg class="assist__icon">
+                <use href="./symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+              <p class="assist__text"><b>Підбере рішення</b> відповідно <br/>
+                до ваших запитів та бажань</p>
+            </li>
+            <li class="assist__item">
+              <svg class="assist__icon">
+                <use href="./symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+              <p class="assist__text"><b>Підготує унікальну пропозицію</b><br/>
+                та детально розповість Вам про наші букети</p>
+            </li>
+            <li class="assist__item">
+              <svg class="assist__icon">
+                <use href="./symbol-defs.svg#icon-checkmark"></use>
+              </svg>
+              <p class="assist__text"><b>Оформить</b> для Вас подарунок-сюрприз</p>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="clients">
+    <siv class="container">
+      
+    </siv>
+  </section>
   </body>
 </html>

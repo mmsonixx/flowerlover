@@ -6,6 +6,9 @@
 :root {
     --title-color: #A93B59;
   }
+  body {
+    background: #000;
+  }
 .container {
     width: 1328px;
     padding: 0 8px;
@@ -13,7 +16,7 @@
     margin-right: auto;
 }
 .header {
-    background: #000;
+    
     padding-top: 24px;
     padding-bottom: 22px;
 }
@@ -54,14 +57,14 @@ height: 39px;
 .header__link {
     color: #F5EBEB;
 text-align: center;
-font-family: "Source Code Pro";
+font-family: "SourSans Pro";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 .hero {
-    background: #000;
+   
     padding-top: 84px;
     padding-bottom: 50px;
     background-image: url("../img/hero/peonies.webp"), url("../img/hero/ellipse.webp");
@@ -160,7 +163,7 @@ height: 40px;
 .hero__info {
     color: #FFF;
 text-align: center;
-font-family: "Source Code Pro";
+font-family: "Source Sans 3";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -168,7 +171,7 @@ line-height: normal;
 text-transform: uppercase;
 }
 .catalog {
-    background: #000;
+    
 }
 .catalog__title {
     color: var(--title-color);
@@ -192,7 +195,7 @@ border-radius: 15px;
 background: rgba(185, 106, 127, 0.50);
 }
 .details {
-    background: #000;
+    
     padding-top: 54px;
     padding-bottom: 20px;
 }
@@ -239,7 +242,7 @@ margin-right: 121px;
 .details__control__title {
     
     color: #FFF;
-font-family: "Source Code Pro";
+font-family: "Source Sans 3";
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -250,7 +253,7 @@ margin-top: 69px;
 .details__control__text {
     width: 527px;
     color: #FFF;
-font-family: "Source Code Pro";
+font-family: "Source Sans 3";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
@@ -264,7 +267,7 @@ line-height: normal;
 }
 .details__design__title { 
  color: #FFF;
-font-family: "Source Code Pro";
+font-family: "Source Sans 3";
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -275,7 +278,7 @@ margin-bottom: 20px;
 .details__design__text {
     width: 535px;
     color: #FFF;
-font-family: "Source Code Pro";
+font-family: "Source Sans 3";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
@@ -300,7 +303,7 @@ margin-right: 124px;
 }
 .details__delivery__title {
     color: #FFF;
-font-family: "Source Code Pro";
+font-family: "SSource Sans 3";
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
@@ -311,9 +314,139 @@ margin-top: 124px;
 .details__delivery__text {
     width: 526px;
     color: #FFF;
-font-family: "Source Code Pro";
+font-family: "Source Sans 3";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
+}
+.assist {
+   
+    padding-top: 81px;
+    padding-bottom: 121;
+
+}
+.assist__wrapper {
+    background-image: linear-gradient(rgba(185, 106, 127, 0.7), rgba(185, 106, 127, 0.7)), url("../img/assist/background-flover.webp");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% 666px, 776px;
+    background-position: 0% 280px, 0% 40px;
+}
+.assist__title {
+    color: var(--title-color);
+    font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 140px;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-end;
+border-bottom: solid #B02E51 2px;
+width: 823px;
+}
+.assist__box {
+    
+display: flex;
+}
+.assist__field {
+    display: inline-flex;
+    padding: 36px 64px 86px 55px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 39.996px;
+}
+.assist__info {
+    color: #F5EBEB;
+font-family: "Source Sans 3";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 347px;
+}
+.assist__label {
+    /* width: 339px;
+    height: 70px; */
+    width: 416px;
+    border-radius: 15px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.assist__input {
+    color: #8D8D8D;
+font-family: "Source Sans 3";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+margin-left: 38px;
+border-right: #8F8F8F solid 1px;
+height: 70px;
+width: 282px;
+}
+.assist__form__icon {
+    fill: #6F6567;
+ margin-left: 28px;
+ margin-right: 39px;
+ 
+}
+.assist__button {
+    color: #FFF;
+font-family: "Source Sans Pro";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 15px;
+background: #A93B59;
+padding: 16px 116px;
+box-shadow: 142px 0px 40px 0px rgba(0, 0, 0, 0.00), 91px 0px 36px 0px rgba(0, 0, 0, 0.01), 51px 0px 31px 0px rgba(0, 0, 0, 0.05), 23px 0px 23px 0px rgba(0, 0, 0, 0.09), 6px 0px 12px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.10);
+}
+.assist__subtitle {
+    color: #FFF;
+font-family: "Source Sans 3";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 39px;
+margin-top: 40px;
+width: 403px;
+}
+.assist__container {
+margin-left: 306px;
+margin-right: 124px;
+}
+.assist__list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.assist__item {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+.assist__icon {
+    fill: #822740;
+    width: 48px;
+height: 48px;
+}
+.assist__text {
+    color: rgba(255, 255, 255, 0.71);
+font-family: "Source Sans 3";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.clients {
+padding-top: 121px;
+padding-bottom: 125px;
 }
