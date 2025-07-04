@@ -330,7 +330,8 @@ line-height: normal;
     background-image: linear-gradient(rgba(185, 106, 127, 0.7), rgba(185, 106, 127, 0.7)), url("../img/assist/background-flover.webp");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 100% 666px, 776px;
-    background-position: 0% 280px, 0% 40px;
+    background-position: 0% 280px, 0% 70px;
+  
 }
 .assist__title {
     color: var(--title-color);
@@ -449,4 +450,128 @@ line-height: normal;
 .clients {
 padding-top: 121px;
 padding-bottom: 125px;
+}
+.clients__title {
+    margin-left: 885px;
+    color: var(--title-color);
+    font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-bottom: #B02E51 solid 2px;
+width: 488px;
+display: flex;
+margin-bottom: 140px;
+
+}
+.clients__box {
+    display: flex;
+    align-items: center;
+}
+.clients__icon {
+    fill: #B02E51;
+    width: 69.293px;
+height: 74.1px;
+}
+.clients__list {
+    display: flex;
+gap: 18px;
+   
+}
+.footer {
+    border-top: solid 2px #A93B59;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__nav {
+}
+.footer__nav__list {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.footer__nav__item {
+}
+.footer__nav__link {
+    color: #F5EBEB;
+text-align: center;
+font-family: "Source Sans 3";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+}
+.footer__box {
+    
+}
+.footer__link__logo {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   gap: 4px;
+   margin-bottom: 45px;
+}
+.footer__img__logo {
+    width: 88px;
+height: 84px;
+
+}
+.footer__logo {
+    color: #F5EBEB;
+text-align: center;
+font-family: "Spline Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer__icons {
+    display: flex;
+    gap: 46px;
+}
+.footer__icon {
+}
+.footer__link__icons {
+    fill: #B02E51;
+}
+.footer__sociable__icon {
+    width: 40px;
+height: 40px;
+}
+.wrapper {
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center; 
+}
+.footer__contact {
+    
+}
+.footer__link {
+    color: #FFF;
+text-align: center;
+    font-family: "Source Sans 3";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+.footer__info {
+    text-align: center;
+    color: #FFF;
+font-family: "Source Sans Pro";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
