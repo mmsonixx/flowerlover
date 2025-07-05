@@ -224,13 +224,22 @@ background: rgba(185, 106, 127, 0.50);
 background: #FFF;
 justify-content: center;
 width: 320px;
+padding-top: 14px;
+}
+.sales__button__icon {
+margin-left: 277px;
+padding: 0;
+border: none;
+font: inherit;
+color: inherit;
+background-color: transparent;
 }
 .sales__icon {
     fill: #B02E51;
     width: 28px;
     height: 28px;
-    margin-left: 277px;
-    margin-top: 14px;
+    /* margin-left: 277px;
+    margin-top: 14px; */
 }
 .sales__img {
    
@@ -474,6 +483,7 @@ margin-left: 38px;
 border-right: #8F8F8F solid 1px;
 height: 70px;
 width: 282px;
+outline:none;
 }
 .assist__form__icon {
     fill: #6F6567;
@@ -639,17 +649,18 @@ height: 40px;
     align-items: center; 
 }
 .footer__contact {
-    
+    text-align: center;
 }
 .footer__link {
     color: #FFF;
-text-align: center;
+
     font-family: "Source Sans 3";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
+
 }
 .footer__info {
     text-align: center;
